@@ -81,7 +81,7 @@ echo -e "[ℹ] BASH config edit done."
 # Terminal Profile
 echo -e "[🔧] Setting the Terminal Profile To Shazza\n"
 key=$(gsettings get org.gnome.Terminal.ProfilesList list | cut -f 2 -d "'")
-dconf load /org/gnome/terminal/legacy/profiles:/$key/ < ~/term.cfg
+dconf load /org/gnome/terminal/legacy/profiles:/:$key/ < ~/term.cfg
 echo -e "[ℹ] Setting the terminal profile Done."
 
 # SSH Key Setup

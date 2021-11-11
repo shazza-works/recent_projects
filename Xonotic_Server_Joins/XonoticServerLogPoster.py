@@ -20,7 +20,7 @@ def make_webhook(url, title, desc, colour, footer_text, user):
 
 
 # Xonotic Chan Hook
-url = "https://discord.com/api/webhooks/907422999882367076/FSS4UcFANbqCEepsRNoMKEIwvRafnRb8zGtU4zSg0VSOm8u-DfN2nxPJfVp0VkBb42-I"
+url = "YOUR HOOK URL HERE"
 username = "@Shazza-Works"
 title = "_Xonotic_Server_Info_"
 footer_text = "Come Join The Game !!"
