@@ -124,4 +124,5 @@ if [[ $ans == "y" ]] || [[ $ans == "Y" ]]; then
 	reboot
 else
 	exit 0
+fi
 ### EOF###
